@@ -5,21 +5,14 @@
     font-weight: 800px;
 }
 
-@font-face {
-    font-family: Inter;
-    src: url(Inter.ttf); 
-    font-style: normal;
-    font-weight: 400;  
-}
-
 body {
     background-color: #1F2937;
+    margin: 115px 145px 10px 50px;
 }
 
 #header {    
-    margin: 115px 145px 10px 50px;
     width: 400px;
-    height: 80px;
+    height: 200px;
 }
 
 #line1 {
@@ -32,7 +25,7 @@ body {
 }
 
 #line2 {
-    font-family:Inter;
+    font-family: Inter;
     font-weight: 800;
     font-size: 40px;
     line-height: 40px;
@@ -48,3 +41,27 @@ body {
     margin-top: 30px;
     color: #D5D4D8;
 }
+
+button {
+    background-color: #10B981;
+    color: white;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+    margin-bottom: 35px;
+}
+
+p.secret {
+    display: none;
+    color:#10B981
+  }
+  
