@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Karla;
+    src: url(Karla.ttf); 
+    font-style:normal;
+    font-weight: 800px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Inter.ttf); 
+    font-style: normal;
+    font-weight: 400;  
+}
+
+body {
+    background-color: #1F2937;
+}
+
+#header {    
+    margin: 115px 145px 10px 50px;
+    width: 400px;
+    height: 80px;
+}
+
+#line1 {
+    font-family: Karla;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    margin-bottom: 0;
+    color: white;
+}
+
+#line2 {
+    font-family:Inter;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    margin-top: 10px;
+    color: #10B981;
+}
+
+#supportingText {
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 30px;
+    color: #D5D4D8;
+}
