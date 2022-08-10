@@ -160,12 +160,10 @@ label {
 }
 
 .Switch {
-  position: absolute;
+  position:sticky;
   /* Set the size of our the slider container*/
   width: 60px;
   height: 34px;
-  left: 508px;
-  top: 473px;
 }
 
 .Slider {
