@@ -26,7 +26,7 @@ body {
 .heading {
     font-family: 'Karla';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.025em;
@@ -49,13 +49,13 @@ h2 {
 }
 
 button {
-    width: 191px;
-    height: 42px;
+    width: 195px;
+    height: 45px;
     background: #10B981;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
     border: none;
-    padding: 9px 17px 9px 15px;
+    padding: 9px 17px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -110,7 +110,7 @@ button:hover {
 }
 
 /*Password Range Slider*/
-.pw-length {
+#length {
     -webkit-appearance: none;
     width: 150px;
     height: 8px;
@@ -124,15 +124,15 @@ button:hover {
     transition: 0.4s all ease-out;
 }
 
-.pw-length:hover {
+#length:hover {
     opacity: 1;
 }
 
-.pw-length:after {
+#length:after {
     outline: none;
 }
 
-.pw-length::-webkit-slider-thumb {
+#length::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 20px;
     height: 20px;
@@ -162,8 +162,8 @@ label {
 .Switch {
   position:sticky;
   /* Set the size of our the slider container*/
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  /* height: 34px; */
 }
 
 .Slider {
@@ -192,13 +192,13 @@ label {
 .Slider::before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 14px;
+  width: 14px;
+  left: 8px;
+  bottom: 2px;
   border-radius: 50%;
   background-color: #10B981;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 
